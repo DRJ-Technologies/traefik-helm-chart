@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=1a38ef8 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=1ae080c — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -44,8 +44,8 @@ instead and looks fine locally. → `patterns.md#agent-files`
 don't already document; batch them (a few per day at most), never one docs PR per merge
 or milestone. When authorized, publish the browser view and verify the served revision
 in Chrome/Chromium. → `operating.md#keep-roadmaps-and-browser-views-current`
-**Storybook** — in a repo with a catalog: component change ⇒ story change ⇒ story tests
-green ⇒ story ids cited in the PR. → `operating.md#keep-the-component-catalog-current`
+**UI/UX** — use task-fit models; verify rendered interfaces, user journeys and accessibility. With a catalog: component change ⇒ story change ⇒ green story tests ⇒ story ids in the PR.
+→ `operating.md#uiux-design-and-verification`, `#keep-the-component-catalog-current`
 **Worktrees/tasks** — agents own linked worktrees; keep each team together in its project workspace.
 Leads accept tested-head task receipts before worker cleanup; preserve source/history.
 → `operating.md#lead-owned-task-receipts-and-passive-events`, `#agent-completion-and-workspace-closure`
